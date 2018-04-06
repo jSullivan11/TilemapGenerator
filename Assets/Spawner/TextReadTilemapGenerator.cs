@@ -58,7 +58,7 @@ public class TextReadTilemapGenerator : MonoBehaviour
                 yCord = step * y;
                 spawnPoint = new Vector3(xCord, yCord, 0);
                 readInt++;
-                spawnChar = line[(readInt--)];
+                spawnChar = line[(readInt - 1)];
                 spawnString = spawnChar.ToString();
                 if (spawnString == "0")
                 {

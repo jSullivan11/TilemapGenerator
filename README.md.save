@@ -1,0 +1,9 @@
+# TilemapGenerator
+#Unity3D tilemap generator written in C#. 
+
+#Make sure your tilesizes are in sync with the world unit sizes. 
+
+#i.e.
+
+#The example in this project's tile dimensions are 2048 by 2048 
+and the world's unit size is 512p
